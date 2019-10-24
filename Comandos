@@ -1,0 +1,3 @@
+yarn init -y
+node src/server.js
+yarn add nodemon -D - utilizado para aplicar as atualizações enquanto estiver em desenvolvimento
