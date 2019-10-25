@@ -1,0 +1,72 @@
+/*Fonte Roboto*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root{
+  min-height: 100%;
+}
+
+body {
+  background: #000 url('./assets/background.jpg') no-repeat;
+  background-size: cover;/*cobre toda a sreen*/
+  -webkit-font-smoothing: antialiased !important; /*Propriedade para deixar a fonte + detalhada*/
+
+}
+
+body, input, button {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  margin: 80px auto 0;
+  /*se estiver com mais de 450 px o background irá ocupar toda a screen*/
+  max-width: 450px;
+  width: 100%;
+  /*alinha o conteúdo no meio*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Conteúdo principal*/
+.content {
+  width: 100%;
+  background: #FFF;
+  margin-top: 50px;
+  border-radius: 4px;
+  padding: 30px;
+}
+
+.content > p {
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.content form label {
+  font-size: 14px;
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.content form input{
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  height: 45px;
+  padding: 0 15px;
+  font-size: 16px;
+}

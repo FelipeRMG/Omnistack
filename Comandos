@@ -3,3 +3,5 @@ node src/server.js
 yarn add nodemon -D - utilizado para aplicar as atualizações enquanto estiver em desenvolvimento
 yarn add mongoose - ferramenta para utilizar o MongoDB
 yarn add multer - trata o multipart form, para upload de imagens
+yarn create react-app frontend - cria toda a estrutura do react
+yarn start 
