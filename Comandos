@@ -2,3 +2,4 @@ yarn init -y
 node src/server.js
 yarn add nodemon -D - utilizado para aplicar as atualizações enquanto estiver em desenvolvimento
 yarn add mongoose - ferramenta para utilizar o MongoDB
+yarn add multer - trata o multipart form, para upload de imagens
