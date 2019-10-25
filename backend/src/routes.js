@@ -13,6 +13,8 @@ const upload = multer(uploadConfig);
 //req.body é para acessar corpo da requisição (para criação, edição)
 
 routes.post('/sessions', SessionController.store);
+
+routes.get('/spots', SpotController.index);
 routes.post('/spots', upload.single('thumbnail'), SpotController.store);
 
 
