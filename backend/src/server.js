@@ -1,6 +1,7 @@
 const express = require ('express');/*Express é um framework para definir as rotas */
 const mongoose = require ('mongoose');/*Express é um framework para definir as rotas */
 const cors = require ('cors');/*Express é um framework para definir as rotas */
+const path = require('path');
 
 const routes = require ('./routes');
 
@@ -13,6 +14,7 @@ mongoose.connect('mongodb+srv://omnistack:omnistack@omnistack-skg9z.mongodb.net/
 
 app.use(cors());
 app.use(express.json());//informa ao express para utilizar o formato json
+app.use('/files', express.static(path.resolve(__dirname, '..', 'uploads')));
 app.use(routes);
 
 app.listen(3333);
