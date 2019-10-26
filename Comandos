@@ -5,3 +5,4 @@ yarn add mongoose - ferramenta para utilizar o MongoDB
 yarn add multer - trata o multipart form, para upload de imagens
 yarn create react-app frontend - cria toda a estrutura do react
 yarn start 
+yarn add axios - ferramenta para chamadas da api
