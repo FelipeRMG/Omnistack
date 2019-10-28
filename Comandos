@@ -8,3 +8,8 @@ yarn start
 yarn add axios - ferramenta para chamadas da api
 yarn add cors - /backend protege que o backend seja acessado por outros endereços
 yarn add react-router-dom - biblioteca para rotas para react
+sudo yarn global add expo-cli - instalar a expo
+expo init mobile - inicializar a expo 
+yarn start - startar
+yarn add react-navigation - biblioteca para navegação no React native
+expo install react-native-gesture-handler react-native-reanimated
