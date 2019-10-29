@@ -13,3 +13,4 @@ expo init mobile - inicializar a expo
 yarn start - startar
 yarn add react-navigation - biblioteca para navegação no React native
 expo install react-native-gesture-handler react-native-reanimated
+yarn add axios - ferramenta para chamadas da api-mobile
