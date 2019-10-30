@@ -14,3 +14,6 @@ yarn start - startar
 yarn add react-navigation - biblioteca para navegação no React native
 expo install react-native-gesture-handler react-native-reanimated
 yarn add axios - ferramenta para chamadas da api-mobile
+yarn add socket.io - ferramenta para sincronização em tempo real (backend)
+yarn add socket.io-client - cliente para o frontend
+yarn add socket.io-client - cliente para o mobile
